@@ -31,7 +31,7 @@ It can be used to investigate the changes introduced during one commit by compar
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+    I always have the flexibility to revert my code back to a version that existed before the changes were introduced so I can confidently make any changes that might possibly break something. 
 
 Now that you have your workspace set up, what do you want to try using Git for?
 

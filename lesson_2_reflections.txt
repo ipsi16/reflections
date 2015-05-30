@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a .git directory
+	This directory contains the state of the repository - list of untracked files , commit status - all of which are displayed on the commant git status
