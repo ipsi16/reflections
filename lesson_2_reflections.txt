@@ -1,3 +1,22 @@
 What happens when you initialize a repository? Why do you need to do it?
 	It creates a .git directory
 	This directory contains the state of the repository - list of untracked files , commit status - all of which are displayed on the commant git status
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area differentiates the files whose changes should be incorporated in the commit from the files whose changes ahould not be tracked/logged/incorporated in the commit history. In this way certain changes can be made in the working directory that are not version-controlled and hence.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When working on multiple features, one can sandbox code changes for each feature by using different branches for each feature.
+	Switching to new feature or correcting a bug.
+
+How do the diagrams help you visualize the branch structure?
+	The diagrams help in visualising 3 things related to branching:
+	1. The various branches and their divergence (points where they diverge)
+	2. Reachablility of each commit
+	3. Which commit belongs to which branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	On merging to branches the changes introduced by the 2 branches(sequence of commits) is applied collectively onto the files in the repository.
+	It is represented as a merge from one branch to the master as the master now points to the commit created on merge of the 2 branches. So both branches can now be retraced by 'master'.

@@ -35,4 +35,5 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I'd like to use Git to keep track of the changes I make at each step.
+    Abd to use it to revert back to earlier states in case of any bugs that might have been introduced. 
